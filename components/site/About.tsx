@@ -9,11 +9,14 @@ export function About() {
     >
       <div className="relative">
         <Reveal>
-          <div className="w-full aspect-[4/3] md:aspect-[3/4] bg-[linear-gradient(160deg,#2A2724_0%,#1a1816_60%,#0E0C0A_100%)] border border-gold/15 flex items-center justify-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(194,148,58,0.06)_0%,transparent_60%)]" />
-            <span className="font-serif text-[6rem] font-light text-gold/20 tracking-[-0.05em] relative z-10">
-              V.A.
-            </span>
+          <div className="w-full aspect-[4/3] md:aspect-[3/4] border border-gold/15 flex items-center justify-center relative overflow-hidden">
+            <Image
+              src="/profile.jpg"
+              alt="Victor Profile"
+              fill
+              className="object-cover object-top"
+              priority
+            />
             <span className="absolute bottom-[-1px] right-[-1px] bg-gold text-ink text-[0.65rem] tracking-[0.16em] uppercase px-[1.2rem] py-[0.7rem] font-medium z-10">
               Lagos · Nigeria
             </span>
