@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -45,6 +45,10 @@ export const metadata: Metadata = {
     description:
       "Independent People & Culture practice offering organisational design, HR systems, and leadership coaching for growing African organisations.",
   },
+};
+
+export const viewport: Viewport = {
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
