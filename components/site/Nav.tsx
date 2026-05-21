@@ -23,7 +23,7 @@ export function Nav() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-[100] flex items-center justify-between bg-ink/85 backdrop-blur-md border-b border-gold/12 transition-all duration-400 ease-in-out px-[1.5rem] md:px-[3rem] ${
+      className={`fixed top-0 left-0 right-0 w-full z-[100] flex items-center justify-between bg-[#0E0C0A]/95 backdrop-blur-xl border-b border-gold/12 transition-all duration-400 ease-in-out px-[1.5rem] md:px-[3rem] ${
         scrolled ? "py-[0.9rem]" : "py-[1.2rem] md:py-[1.4rem]"
       }`}
     >

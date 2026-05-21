@@ -9,12 +9,12 @@ export function About() {
     >
       <div className="relative">
         <Reveal>
-          <div className="w-full aspect-[4/3] md:aspect-[3/4] border border-gold/15 flex items-center justify-center relative overflow-hidden">
+          <div className="w-full aspect-[4/5] sm:aspect-[3/4] md:aspect-[3/4] border border-gold/15 flex items-center justify-center relative overflow-hidden">
             <Image
               src="/profile.jpg"
               alt="Victor Profile"
               fill
-              className="object-cover object-top"
+              className="object-cover object-center"
               priority
             />
             <span className="absolute bottom-[-1px] right-[-1px] bg-gold text-ink text-[0.65rem] tracking-[0.16em] uppercase px-[1.2rem] py-[0.7rem] font-medium z-10">
