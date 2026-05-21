@@ -61,7 +61,14 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${outfit.variable} h-full antialiased`}
     >
-      <body className="min-h-full font-sans" suppressHydrationWarning>{children}</body>
+      <body className="min-h-full font-sans" suppressHydrationWarning>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if("scrollRestoration"in history){history.scrollRestoration="manual"}window.scrollTo(0,0);`,
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

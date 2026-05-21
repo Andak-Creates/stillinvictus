@@ -15,12 +15,6 @@ export function Nav() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    // Force scroll to top on page load/refresh
-    if ("scrollRestoration" in history) {
-      history.scrollRestoration = "manual";
-    }
-    window.scrollTo(0, 0);
-
     const onScroll = () => setScrolled(window.scrollY > 60);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -35,7 +29,7 @@ export function Nav() {
         style={{ height: "env(safe-area-inset-top, 0px)" }}
       />
       <nav
-        className={`fixed left-0 right-0 w-full z-[100] flex items-center justify-between bg-[#0E0C0A] border-b border-gold/12 transition-all duration-400 ease-in-out px-[1.5rem] md:px-[3rem] ${
+        className={`fixed left-0 right-0 w-full z-[100] flex items-center justify-between bg-[#0E0C0A]/85 backdrop-blur-xl border-b border-gold/12 transition-all duration-400 ease-in-out px-[1.5rem] md:px-[3rem] ${
           scrolled ? "py-[0.9rem]" : "py-[1.2rem] md:py-[1.4rem]"
         }`}
         style={{ top: "env(safe-area-inset-top, 0px)" }}
