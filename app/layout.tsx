@@ -16,7 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Invictus | People & Culture Practice Lagos",
+  title: "StillInvictus | People & Culture Practice Lagos",
   description:
     "Independent People & Culture practice offering organisational design, HR systems, and leadership coaching for growing African organisations.",
 };

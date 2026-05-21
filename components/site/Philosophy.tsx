@@ -18,7 +18,7 @@ export function Philosophy() {
             watching yet.&rdquo;
           </p>
           <footer className="mt-10 eyebrow justify-center text-mist before:bg-mist/50">
-            The founding belief of Invictus
+            The founding belief of StillInvictus
           </footer>
         </blockquote>
       </Reveal>

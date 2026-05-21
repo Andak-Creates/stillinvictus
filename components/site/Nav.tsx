@@ -31,7 +31,7 @@ export function Nav() {
         href="#"
         className="font-serif font-medium text-[1.15rem] tracking-[0.08em] text-parchment no-underline"
       >
-        Invictus<span className="text-gold">.</span>
+        StillInvictus<span className="text-gold">.</span>
       </Link>
 
       <ul className="hidden md:flex gap-[2.5rem] list-none m-0 p-0">

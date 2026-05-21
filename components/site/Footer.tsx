@@ -8,7 +8,7 @@ export function Footer() {
           href="#home"
           className="font-serif text-xl tracking-wide text-parchment"
         >
-          Invictus<span className="text-gold">.</span>
+          StillInvictus<span className="text-gold">.</span>
         </Link>
         <p className="text-center text-[0.7rem] tracking-[0.12em] text-smoke">
           © {new Date().getFullYear()} · Lagos, Nigeria · Independent P&C Practice
