@@ -19,6 +19,32 @@ export const metadata: Metadata = {
   title: "StillInvictus | People & Culture Practice Lagos",
   description:
     "Independent People & Culture practice offering organisational design, HR systems, and leadership coaching for growing African organisations.",
+  keywords: [
+    "StillInvictus",
+    "People and Culture",
+    "Organisational Design",
+    "HR Systems",
+    "Leadership Coaching",
+    "Lagos",
+    "Nigeria",
+  ],
+  authors: [{ name: "StillInvictus" }],
+  creator: "StillInvictus",
+  openGraph: {
+    title: "StillInvictus | People & Culture Practice Lagos",
+    description:
+      "Independent People & Culture practice offering organisational design, HR systems, and leadership coaching for growing African organisations.",
+    url: "https://stillinvictus.com", // You can update this to the actual domain later
+    siteName: "StillInvictus",
+    locale: "en_NG",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StillInvictus | People & Culture Practice Lagos",
+    description:
+      "Independent People & Culture practice offering organisational design, HR systems, and leadership coaching for growing African organisations.",
+  },
 };
 
 export default function RootLayout({
